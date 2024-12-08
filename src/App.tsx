@@ -1,5 +1,6 @@
-import ExpenseTracker from "./components/ExpenseTracker"
-import { useStore } from "./store/useStore"
+import Form from "./components/Form"
+
+
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-    <ExpenseTracker />
+       <Form />
     </>
   )
 }
